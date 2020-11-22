@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HTML FORM
+        </title>
+
+        <style>
+            td{
+                padding-top: 7px;
+            }
+            input{
+                width:80%;
+            }
+        </style>
+
+
+    </head>
+    <body style="margin: 2% 35% 1%;border-style: solid;border-color: cornflowerblue; border-width: 3px;padding: 7px;">
+        
+            <form >
+                <table>
+                    <tr>
+                        <td>
+                            <label for="title">Title:</label>
+                        </td>
+                        <td>
+                            <select name="title" id="title">
+                                <option value="Mr">Mr</option>
+                                <option value="Mrs">Mrs</option>
+                                <option value="Miss">Miss</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for = "fname">First Name:</label>
+                        </td>
+                        <td>
+                            <input type = "text" name = "fname" id = "fname">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for = "lname">Last Name:&ensp;</label>
+                        </td>
+                        <td>
+                            <input type = "text" name = "lname" id = "lname">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for = "address">Address:&emsp;&ensp;</label>
+                        </td>
+                        <td>
+                            <input type = "text" name = "address" id = "address">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for = "city">City:</label>
+                        </td>
+                        <td>
+                            <input type = "text" name = "city" id = "city">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for = "state">State:</label>
+                        </td>
+                        <td>
+                            <input type = "text" name = "state" id = "state">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for = "pcode">Postal code:</label>
+                        </td>
+                        <td>
+                            <input type = "number" name = "pcode" id = "pcode"><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for = "country">Country:</label>
+                        </td>
+                        <td>
+                            <input type = "text" name = "country" id = "country">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for = "phone">Phone:</label>
+                        </td>
+                        <td>
+                            <input type = "number" name = "phone" id = "phone">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for = "fax">Fax:</label>
+                        </td>
+                        <td>
+                            <input type = "text" name = "fax" id = "fax"><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for = "email">Email:</label>
+                        </td>
+                        <td>
+                            <input type = "email" name = "email" id = "email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Payment by:</label> 
+                        </td>
+                        <td>
+                            <input type = "radio" name = "payment" value="paypal">
+                            <label for="paypal">PayPal</label><br>
+                            <input type = "radio" name = "payment" value="manual">
+                            <label for="manual">Manual:Pay on arrival<br>
+                            <input type = "radio" name = "payment" value="credit card">
+                            <label for="credit card">Credit Card</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="additionalRequest">Any additional request:</label>
+                        </td>
+                        <td>
+                            <textarea name = "additionalRequest" rows="4" cols="20"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" name = "t&c" value = "true">
+                            <label for = "t&c">I agree with the <a href="">Terms & Conditions.</a></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                            <input type="submit" value = "Confirm & Checkout" onclick="getname()">  
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        
+        
+    </body>
+
+</html>

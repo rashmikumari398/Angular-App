@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <title>
+            ELECTRONIC SHOP
+        </title>
+        <style>
+            #firstDiv{
+                height:50px;
+                background-color: #ffa500;
+                padding:0px 30% 0.1px 45%;
+            }
+            #secDiv{
+                background-color: gold;
+                width: 200px;
+                height:600px;
+                float:left;
+            }
+            .textStyle{
+                font-weight: bold;
+                font-size: x-large;
+            }
+            #thirdDiv{
+                padding-top: 0.1px;
+                background-color: rgb(235, 235, 235);
+                height:600px;
+            }
+            th{
+                position: sticky;
+                top:0;
+                z-index: 1;
+                background-color:gray;
+                height:35px;
+
+            }
+            td{
+                height: 50px;
+                padding: 5px;
+            }
+            hr{
+                width:6px;
+            }
+            tr:nth-child(even)
+             {
+                 background-color:#b2ccf1;
+            }
+            tr:nth-child(odd){
+                background-color:#d2d2f5;
+            }
+            table{
+                overflow:visible;
+            }
+            #scroll{
+                overflow-y:scroll;
+                height:365px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <div id=firstDiv>
+            <h1>Electronic Shop</h1>
+        </div>
+
+        <div style="height: 600;">
+            <div id=secDiv>
+                <br><p class = "textStyle">Add Product</p>
+                <p class="textStyle">View Products</p>
+            </div>
+
+           <div id=thirdDiv>
+                <h1>View Products</h1>
+                <label for="choice">Choose a product category</label>
+                <select name="choice" id="choice">
+                    <option>--select--</option>
+                    <option value="Mobile">Mobile</option>
+                    <option value="Camera">Camera</option>
+                    <option value="laptop">Laptop</option>
+                </select><hr><br><br>
+                
+                <h1>List of Products</h1>
+                <div  id="scroll">
+                    <table style="width:1300px;">
+                        <tr>
+                            <th>Product Id</th>
+                            <th>Product Name</th>
+                            <th>Price</th>
+                        </tr>
+                        <tr>
+                            <td>px001</td>
+                            <td>Lenevo</td>
+                            <td>45000</td>
+                        </tr>
+                        <tr>
+                            <td>px001</td>
+                            <td>Lenevo</td>
+                            <td>45000</td>
+                        </tr>
+                        <tr>
+                            <td>px001</td>
+                            <td>Lenevo</td>
+                            <td>45000</td>
+                        </tr>
+                        <tr>
+                            <td>px001</td>
+                            <td>Lenevo</td>
+                            <td>45000</td>
+                        </tr>
+                        <tr>
+                            <td>px001</td>
+                            <td>Lenevo</td>
+                            <td>45000</td>
+                        </tr>
+                        <tr>
+                            <td>px001</td>
+                            <td>Lenevo</td>
+                            <td>45000</td>
+                        </tr>
+                        <tr>
+                            <td>px001</td>
+                            <td>Lenevo</td>
+                            <td>45000</td>
+                        </tr>
+                        <tr>
+                            <td>px001</td>
+                            <td>Lenevo</td>
+                            <td>45000</td>
+                        </tr>
+                        <tr>
+                            <td>px001</td>
+                            <td>Lenevo</td>
+                            <td>45000</td>
+                        </tr>
+                        
+                    </table>
+                </div>
+                
+
+           </div>
+
+        </div>
+
+        <div style="background-color:#ffa500; height:50px;">
+            Copyright @ mindtree
+        </div>
+
+    </body>
+
+</html>
